@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="acceptance" tests="2" assertions="0" failures="1" errors="1" time="2.537237">
+    <testcase file="/home/vowel07/Documents/git/TJ-Notifications/tests/acceptance/admin/components/tjnotification/notication/CreateNotificationhappypathCest.php" name="adminLogin" class="CreateadminNotificationCest" feature="admin login" assertions="0" time="2.536669">
+      <failure type="Codeception\Exception\ElementNotFound">CreateadminNotificationCest: Admin login
+Field by name, label, CSS or XPath element with '//*[@id="mod-login-username"]' was not found.
+
+/home/vowel07/Documents/git/TJ-Notifications/tests/_support/_generated/AcceptanceTesterActions.php:1487
+/home/vowel07/Documents/git/TJ-Notifications/tests/_support/Step/Acceptance/adminlogin.php:41
+/home/vowel07/Documents/git/TJ-Notifications/tests/acceptance/admin/components/tjnotification/notication/CreateNotificationhappypathCest.php:63
+</failure>
+    </testcase>
+    <testcase file="/home/vowel07/Documents/git/TJ-Notifications/tests/acceptance/admin/components/tjnotification/notication/CreateNotificationhappypathCest.php" name="createadminNotificationHappyPath" class="CreateadminNotificationCest" feature="Create email Notification template" assertions="0" time="0.000568">
+      <error type="Codeception\Exception\InjectionException">CreateadminNotificationCest: Create email Notification template
+Codeception\Exception\InjectionException: Failed to inject dependencies in instance of 'CreateadminNotificationCest'. Class Step\Acceptance\AdminTJNotificationinit does not exist
+</error>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,2 @@
+tests/acceptance/admin/components/tjnotification/notication/CreateNotificationhappypathCest.php:adminLogin
+tests/acceptance/admin/components/tjnotification/notication/CreateNotificationhappypathCest.php:createadminNotificationHappyPath

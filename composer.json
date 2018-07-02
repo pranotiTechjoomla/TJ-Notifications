@@ -1,0 +1,30 @@
+{
+    "name"       : "TJNotification",
+    "description": "TJNotification",
+    "license"    : "GPL-2.0+",
+     "config": {
+        "vendor-dir": "vendor"
+    },
+    "require": {
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.2",
+        "joomla-projects/joomla-browser": "^3.6",
+        "fzaninotto/faker": "^1.5",
+        "phpunit/phpunit": "4.*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        },
+        {
+            "packagist": false
+        }
+    ],
+    "autoload": {
+        "classmap": [
+
+        ]
+    }
+}
